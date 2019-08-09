@@ -1,10 +1,11 @@
-﻿
+﻿# adding a comment to allow me to recommit to GIT
+
 Import-Module ActiveDirectory
 $Admins =@()
 $Count = 0
 $Domains = (Get-ADforest).domains
 $FilePath = "E:\Scripts\Ian\CSV\DA.csv"
-
+$TempVariable
 
 foreach($Domain in $Domains)
 {
